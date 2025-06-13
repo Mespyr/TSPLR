@@ -1,6 +1,11 @@
-#include <iostream>
+#include <SDL3/SDL.h>
+
+#include "util.hpp"
+#include "window/window.hpp"
 
 int main() {
-	std::cout << "Hello World!" << std::endl;
-	return 0;
+    std::ostream& log = std::cerr;
+    if (!init_lib(log)) exit(1);
+
+    return 0;
 }

@@ -32,3 +32,5 @@
 *.app
 
 tsplr
+
+build/*
