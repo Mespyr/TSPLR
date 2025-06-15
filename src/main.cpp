@@ -1,7 +1,7 @@
-#include <SDL3/SDL.h>
-
 #include "util.hpp"
 #include "window/window.hpp"
+
+#include <taglib/fileref.h>
 
 int main() {
     std::ostream& log = std::cerr;
