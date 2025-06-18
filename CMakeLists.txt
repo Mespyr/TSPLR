@@ -59,6 +59,8 @@ target_include_directories(tsplr PUBLIC
     ${taglib_SOURCE_DIR}/taglib
     ${taglib_SOURCE_DIR}/taglib/toolkit
 )
+# include local libs
+target_include_directories(tsplr PRIVATE lib/)
 
 # Installation for packaging
 install(TARGETS tsplr RUNTIME DESTINATION bin)

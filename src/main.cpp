@@ -2,6 +2,7 @@
 
 #include <fstream>
 
+#include "stb_image.h"
 #include "util.hpp"
 #include "window/window.hpp"
 
