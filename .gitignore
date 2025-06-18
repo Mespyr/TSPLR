@@ -33,5 +33,7 @@
 
 tsplr
 
+# Extra stuff
 build/*
 .cache/*
+music/*
